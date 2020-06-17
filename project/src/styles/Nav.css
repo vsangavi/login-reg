@@ -1,0 +1,57 @@
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+h2 {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  color: navy;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 35px;
+  font-weight: 900;
+}
+/*#2fa7da*/
+label {
+  font-size: large;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bolder;
+  padding-left: 12px;
+  padding-right: 50px;
+  padding-top: 6px;
+  color: navy;
+}
+
+nav {
+  display: flex;
+
+  overflow: hidden;
+  height: 40px;
+  width: 100%;
+  background-color: #c5c5c5;
+  /*margin: -7.67px -6.8px 0px -6.8px;*/
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  box-shadow: 0px 0px 8px #c5c5c5;
+  box-sizing: border-box;
+  position: relative;
+}
+.unlist {
+  display: flex;
+}
+.list {
+  list-style: none;
+  margin-right: 1.5rem;
+  margin-top: 6px;
+}
+
+.list a {
+  text-decoration: none;
+  color: black;
+  font-weight: 545;
+}
+.list-icon button {
+  float: right;
+}
+
+/*<i class="fas fa-store"></i>*/
